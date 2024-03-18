@@ -1,0 +1,38 @@
+.c-card {
+    background-color: #ff000067;
+    border-radius: 1rem;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: inset;
+  }
+}
+
+
+.c-card__body{
+    background-color: rgb(3, 3, 3);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    &-title{
+       font-size: 1rem;
+       font-family: 'Courier New', Courier, monospace;
+       color: rgb(255, 255, 255);
+       font-weight: 600;
+    }
+    &-text{
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 200;
+        color: rgb(255, 255, 255);
+        margin-bottom: 1rem;
+}
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    width: 1rem;
+}
